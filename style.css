@@ -65,7 +65,6 @@ header {
     justify-content: center;           /* 垂直居中 */
     align-items: center;               /* 水平居中 */
     text-align: center;
-    background: rgba(0, 0, 0, 0.4);    /* 叠加暗层提升可读性 */
     color: white;
 }
 
@@ -84,4 +83,18 @@ header h1 {
 .main-intro {
     font-size: 28px;
     font-weight: 600;
+}
+.hero-text {
+    background: rgba(0, 0, 0, 0.45);  /* 半透明暗底 */
+    padding: 40px 60px;
+    border-radius: 12px;
+    color: white;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
