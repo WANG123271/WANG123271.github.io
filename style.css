@@ -52,3 +52,7 @@ footer {
     padding: 20px;
     background: rgba(0, 0, 0, 0.8);
 }
+.main-intro {
+    font-size: 36px;
+    font-weight: 800;
+}
