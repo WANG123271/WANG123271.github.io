@@ -1,18 +1,13 @@
-/* ===== 全局设置 ===== */
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-image: url("banner1.jpg");
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
     color: black;
 }
 
-
-/* ===== 导航栏 ===== */
-
+/* 导航栏 */
 nav {
     background: rgba(0, 0, 0, 0.8);
     padding: 15px;
@@ -30,22 +25,51 @@ nav a:hover {
     color: #00ffff;
 }
 
+/* 顶部区域 */
+header {
+    text-align: center;
+    padding: 100px 20px;
+}
+/* 板块 */
+section {
+    background: rgba(255, 255, 255, 0.85);
+    margin: 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
 
-/* ===== HERO 顶部整屏区域 ===== */
+/* 头像 */
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+/* 页脚 */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+.main-intro {
+    font-size: 28px;      /* 字体大小 */
+    font-weight: bold;    /* 加粗 */
+    margin-top: 20px;
+}
+/* ===== HERO BANNER ===== */
 
 header {
-    height: 100vh;                     /* 占满整屏 */
+    height: 100vh;                     /* 占满整个屏幕高度 */
     display: flex;
     flex-direction: column;
     justify-content: center;           /* 垂直居中 */
     align-items: center;               /* 水平居中 */
     text-align: center;
-    background: rgba(0, 0, 0, 0.45);   /* 整屏暗底 */
     color: white;
 }
 
 header h1 {
-    font-size: 64px;
+    font-size: 64px;                   /* 大标题 */
     font-weight: 900;
     margin-bottom: 20px;
     letter-spacing: 2px;
@@ -60,32 +84,17 @@ header h1 {
     font-size: 28px;
     font-weight: 600;
 }
-
-
-/* ===== 正文板块 ===== */
-
-section {
-    background: rgba(255, 255, 255, 0.85);
-    margin: 40px;
-    padding: 30px;
-    border-radius: 10px;
-}
-
-
-/* ===== 头像 ===== */
-
-img {
-    width: 150px;
-    border-radius: 50%;
-    margin: 20px 0;
-}
-
-
-/* ===== 页脚 ===== */
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
+.hero-text {
+    background: rgba(0, 0, 0, 0.45);  /* 半透明暗底 */
+    padding: 40px 60px;
+    border-radius: 12px;
     color: white;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
