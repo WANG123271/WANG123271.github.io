@@ -85,12 +85,14 @@ header h1 {
     border-radius: 12px;
     color: white;
 }
+
 header {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
 header {
     background: rgba(0,0,0,0.45);
     padding: 12px 0;
