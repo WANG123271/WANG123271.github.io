@@ -59,13 +59,8 @@ footer {
 /* ===== HERO BANNER ===== */
 
 header {
-    height: 100vh;                     /* 占满整个屏幕高度 */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;           /* 垂直居中 */
-    align-items: center;               /* 水平居中 */
     text-align: center;
-    color: white;
+    padding: 60px 20px;   /* 控制上下留白 */
 }
 
 header h1 {
@@ -86,7 +81,6 @@ header h1 {
 }
 .hero-text {
     display: inline-block;     /* 关键！宽度由内容决定 */
-    background: rgba(0,0,0,0.45);
     padding: 25px 40px;
     border-radius: 12px;
     color: white;
@@ -98,4 +92,11 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+header {
+    background: rgba(0,0,0,0.45);
+    padding: 12px 0;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(4px);
 }
