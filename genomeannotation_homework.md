@@ -14,7 +14,7 @@
 
 人类基因组并非“蛋白编码序列为主”，而是由以下部分构成：
 
-<p align="center">表1.人类基因组组成部分
+<div align="center">表1.人类基因组组成部分</div>
 | 组成部分 | 典型特征 | 说明 |
 |---|---:|---|
 | 蛋白质编码区（protein-coding exons） | 约占 1%–2% | 真正翻译成蛋白的序列比例很小 |
@@ -44,7 +44,7 @@
 由于不同数据库（GENCODE、Ensembl、miRBase、RNAcentral）对非编码RNA的定义和统计标准不同，因此各类型数量存在一定差异。本作业以 GENCODE Release 49（2025）为主要参考标准。
 
 ### 2.2 
-<p align="center">表2.非编码 RNA 的主要细分类型
+<div align="center">表2.非编码 RNA 的主要细分类型</div>
 | 非编码 RNA 类型 | 数量 | 主要功能 |
 |---|---:|---|
 | miRNA | 1,879（GENCODE v49）或 ~2,600（miRBase） | 通过与靶 mRNA 配对，抑制翻译或促进 mRNA 降解，参与发育、分化和肿瘤调控。 |
